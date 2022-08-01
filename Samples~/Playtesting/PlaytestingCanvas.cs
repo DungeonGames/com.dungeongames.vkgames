@@ -1,5 +1,5 @@
 using UnityEngine;
-using Agava.VKSdk;
+using Agava.VKGames;
 using UnityEngine.UI;
 
 public class PlaytestingCanvas : MonoBehaviour
