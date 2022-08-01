@@ -8,7 +8,7 @@ using UnityEngine.Scripting;
 [assembly: AlwaysLinkAssembly]
 #endif
 
-namespace Agava.VKSdk
+namespace Agava.VKGames
 {
     public static class VKSdk
     {

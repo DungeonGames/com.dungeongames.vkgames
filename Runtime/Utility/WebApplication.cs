@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Agava.VKSdk.Utility
+namespace Agava.VKGames.Utility
 {
     /// <summary>
     /// Workaround class for <see href="https://trello.com/c/PjW4j3st"/>

@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;
 using System;
 using AOT;
 
-namespace Agava.VKSdk
+namespace Agava.VKGames
 {
     public static class Interstitial
     {
