@@ -36,6 +36,16 @@ namespace Agava.VKGames.Samples
             VideoAd.Show(onRewardedCallback: OnRewardedCallback);
         }
 
+        public void InviteFriendsButton()
+        {
+            SocialInteraction.InviteFriends(OnRewardedCallback);
+        }
+
+        public void AddPlayerToCommunity()
+        {
+            Community.InviteToIJuniorGroup(OnRewardedCallback);
+        }
+
         private void OnRewardedCallback()
         {
             _coinsAmount += 40;
