@@ -97,7 +97,7 @@ const library = {
         vkWebAppShowInviteBox: function (onSuccessCallback, onErrorCallback) {
             vkSDK.bridge.send("VKWebAppShowInviteBox", {})
                 .then(function (data) {
-                    if (data.result)
+                    if (data.success)
                         dynCall('v', onSuccessCallback);
                 })
                 .catch(function (error) {
