@@ -1,9 +1,9 @@
 using UnityEngine;
-using Agava.VKGames;
+using DungeonGames.VKGames;
 using UnityEngine.UI;
 using System.Collections;
 
-namespace Agava.VKGames.Samples
+namespace DungeonGames.VKGames.Samples
 {
     public class PlaytestingCanvas : MonoBehaviour
     {
@@ -43,7 +43,7 @@ namespace Agava.VKGames.Samples
 
         public void AddPlayerToCommunity()
         {
-            Community.InviteToIJuniorGroup(OnRewardedCallback);
+            Community.InviteToDungeonGamesGroup(OnRewardedCallback);
         }
 
         private void OnRewardedCallback()
@@ -55,6 +55,11 @@ namespace Agava.VKGames.Samples
         public void ShowLeaderboardButton()
         {
             Leaderboard.ShowLeaderboard(100);
+        }
+
+        public void IapTest()
+        {
+            InAppPurchase.BuyItem("item_id_123456", OnRewardedCallback, onErrorCallback: () => Debug.Log("alalala"));
         }
     }
 }

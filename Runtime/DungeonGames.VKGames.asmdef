@@ -1,9 +1,7 @@
 {
-    "name": "Agava.VKGames.Samples.Playtesting",
+    "name": "DungeonGames.VKGames",
     "rootNamespace": "",
-    "references": [
-        "GUID:14a6068dfcbb64cdab9347b37d081ff1"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
